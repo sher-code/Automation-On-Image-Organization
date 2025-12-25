@@ -1,14 +1,23 @@
-# Image Organizer Script
+# Automation on Image Organization
 
-This is a simple Python script to automatically move `.jpg` and `.png` files from the Downloads folder to the Pictures folder.
+A Python-based automation script that automatically organizes image files by moving them from the Downloads folder to the Pictures directory.
 
-## 💡 Features
-- Organizes images by file type
-- Automatically creates destination folder
-- Simple and easy to use
+## Features
+- Automatically detects image files (.jpg, .png)
+- Moves images from Downloads to Pictures folder
+- Creates destination folder if it does not exist
+- Reduces manual file organization effort
 
-## 🚀 How to Use
-1. Update the folder paths in the script according to your system.
-2. Run the script with Python:
-   ```bash
-   python main.py
+## Technologies Used
+- Python
+- OS Module
+- Shutil Module
+
+## How It Works
+The script scans the Downloads directory and moves all image files to the Pictures folder using file system automation.
+
+## How to Run
+1. Update folder paths if required
+2. Run the script using:
+```bash
+python image_organizer.py
